@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      font-weight:500;
+      color: rgb(255, 255, 255);
+      font-size: large;
+      
+      
+    }
+    strong{
+      color: orange;
+      font-size: 20px;
+    }
+    p{
+      /* border: 2px solid rgb(233, 20, 20); */
+      /* border-radius: 4px; */
+      /* box-shadow: 5px 5px rgb(23, 229, 64); */
+    }
+nav{
+	height:auto;
+	width:1px;
+	display:flex;
+	background-color:#15171C;
+	list-style:none;
+	text-align:center;
+	line-height:50px;
+	float:left;
+	
+	align-items:center;
+	justify-content:space-between;
+    padding-top:10px;
+    padding-bottom:15px;
+}
+nav > a{
+	margin:0 0px;
+	color:white;
+	display:block;
+	font-size:20px;
+padding-inline:12px;
+}
+nav a{
+	color:#cec8c8;
+	padding-right:40px;
+	padding-left:50px;
+}
+nav  a:hover{
+    
+	color:#fff;
+
+}
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 100px;
+    }
+
+    .card {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 0 0 20px 0;
+      border: 5px solid tomato;
+      /* position: relative;
+      animation-name:side1;
+      animation-duration:3s; */
+    }
+    
+    
+    /* @keyframes side1 {
+      0%{
+        top: 0px;
+        left: 0px;
+      }
+      25%{
+        top: 0px;
+        left: 50%;
+      }
+    } */
+
+    .card h2 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .youtube-link {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #007bff;
+    }
+    .youtube-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Adding colors */
+    .card:nth-child(odd) {
+      background-color: #ffe6e6;
+    }
+    .card:nth-child(even) {
+      background-color: #e6f9ff;
+    }
+    .background-image{
+      /* height: 100%;
+      width: 100%; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    #stick{
+      position: fixed;
+      top: 15px;
+      left: 10px;
+      font-size: 25px;
+      text-decoration: none;
+      color: blue;
+      padding: 10px 30px;
+    }
+    #stick:hover{
+      color: rgb(56, 255, 56);
+      background-color: khaki;
+      border-radius: 5px;
+      top: 15px;
+      left: 10px;
+      font-size: 25px;
+      padding: 10px 30px;
+    }
+  </style>
+<body>
+    <nav>
+        <a href="fittnessfreakzz.html" id="stick">Home</a>
+        
+        
+        
+        </nav><br>
+        <body class="background-image" background="https://th.bing.com/th/id/OIP.Sc9GyvzcNx0ww8gEctMq-wHaNK?rs=1&pid=ImgDetMain">
+          <div class="container">
+            <div class="card">
+              <h2>Vinyasa yoga</h2>
+              <img src="https://inandout-fitness.fr/wp-content/uploads/sites/2/2020/02/yoga-paris-vinyasa-debutant-paris-14.jpg" alt="Chest Exercises" style="width: 100%; height: auto; margin-bottom: 10px;">
+              <a href="https://youtu.be/HzznoIsFsj8?si=FWUz43z0qHcYn-xo" class="youtube-link" target="_blank">Watch on YouTube</a>
+            </div>
+            <p><strong>Vinyasa yoga Description:</strong></p>
+            <p>
+              Vinyasa yoga offers a dynamic and transformative practice that nourishes the body, mind, and spirit through movement, breath, and mindfulness:
+              </p>
+              <ul>
+                <li><strong>Flowing Movement:</strong>  Practitioners move through a series of poses in a connected sequence, promoting flexibility, strength, and balance.</li>
+                <li><strong>Breath Awareness:</strong>  Being aware of the breath's movement in and out of the body, noticing its pace, depth, and quality.<br></li>
+                <li><strong>Sequencing:</strong>Often incorporated to further warm up the body and create a rhythmic flow of movement and breath.<br></li>
+              </ul>
+            
+            <div class="card">
+              <h2>Hatha yoga</h2>
+              <img src="https://i.pinimg.com/originals/c1/09/34/c10934ac277d4f0a2b879f1491cfe795.jpg" alt="Shoulder Exercise" style="width: 100%; height: auto; margin-bottom: 10px;">
+              <a href="https://youtu.be/TO5DAbT5R2s?si=sBP60PG7NxqAvn9N" class="youtube-link" target="_blank">Watch on YouTube</a>
+            </div>
+            <p><strong>Hatha yoga Description:</strong></p>
+            <p>
+              Hatha yoga is a traditional form of yoga that focuses on physical postures, breath control, and meditation:
+              </p>
+              <ul>
+                <li><strong>Physical Postures (Asanas):</strong> Hatha yoga involves a series of physical postures or asanas that help to strengthen and stretch the body.<br>These postures are designed to improve flexibility, balance, and overall physical well-being.<br> </li>
+                <li><strong>Breath Control (Pranayama):</strong> Pranayama, or breath control, is an essential component of Hatha yoga. <br>Practitioners learn various breathing techniques to regulate and deepen their breath, promoting relaxation and focus.<br></li>
+                <li><strong>Mind-Body Connection:</strong> Hatha yoga emphasizes the connection between the mind and body.<br>Practicing asanas and breath control techniques helps to calm the mind, reduce stress, and enhance concentration.<br></li>
+              </ul>
+          </div>
+          <div class="container">
+        
+          <div class="card">
+            <h2>Iyengar yoga</h2>
+            <img src="https://uploads-ssl.webflow.com/566f41e69091869557a9d12d/6047ed97c0b027428813c3fb_kelle.png" alt="Biceps Exercises" style="width: 100%; height: auto; margin-bottom: 10px;">
+            <a href="https://youtu.be/JXQuLm0Q1iM?si=DVtNq2mgITLJ8SNL" class="youtube-link" target="_blank">Watch on YouTube</a>
+          </div>
+          <p><strong>Iyengar yoga Description:</strong></p>
+          <p>
+            yengar yoga emphasizes correct alignment of the body in each yoga pose. The practitioner pays attention to the alignment of bones, muscles, and joints to achieve the proper posture.
+            </p>
+            <ul>
+              <li><strong>Alignment:</strong> yengar yoga emphasizes correct alignment of the body in each yoga pose. The practitioner pays attention to the alignment of bones, muscles, and joints to achieve the proper posture.<br></li>
+              <li><strong>Sequencing::</strong>Poses are often sequenced in a specific order to build strength, flexibility, and balance progressively. The sequence may vary depending on the level of the practitioner and the focus of the practice.<br></li>
+              <li><strong>Breath Awareness:</strong>Iyengar yoga emphasizes the importance of breath awareness (pranayama) during practice. Practitioners learn to synchronize their breath with movement and to deepen their breath to enhance relaxation and concentration.<br></li>
+          </ul>
+          <!-- Lats Exercises Card -->
+          <div class="card">
+            <h2>Kundalini yoga</h2>
+            <img src="https://media.istockphoto.com/photos/man-sitting-in-yoga-position-picture-id688403924?k=6&m=688403924&s=612x612&w=0&h=WyPK_FGzSwhgCsDeWoCOkrH1OqRePXp-VALsU2LWI-E=" alt="Lats Exercises" style="width: 100%; height: auto; margin-bottom: 10px;">
+            <a href="https://youtu.be/Gl-UkwgqeQ0?si=0NQEtj_rVXTauqM0" class="youtube-link" target="_blank">Watch on YouTube</a>
+          </div>
+          <p><strong>Kundalini yoga Description:</strong></p>
+          <p>
+            Kundalini Yoga is a spiritual and physical practice that aims to awaken the dormant energy located <br> at the base of the spine (known as Kundalini energy) through various techniques including postures, breathwork, meditation, and chanting.
+          </p>
+          <ul>
+            <li><strong>Exercise 1:</strong> Kundalini Energy ... Central to Kundalini Yoga is the belief in the existence of a dormant spiritual energy, known as Kundalini,<br>  which resides at the base of the spine, often depicted as a coiled serpent.</li>
+            <li><strong>Exercise 2:</strong> Holistic Approach. Kundalini Yoga is a holistic practice that integrates physical, mental, and spiritual elements, <br>aiming to achieve balance, harmony, and alignment of the body, mind, and spirit.</li>
+            <!-- Add more exercises as needed -->
+          </ul>
+          
+          <!-- Legs Exercises Card -->
+          <div class="card">
+            <h2>Ashtanga yoga</h2>
+            <img src="https://ashtanga-yoga-victoria.com/wp-content/uploads/2018/02/Ashtanga-Gallery-18.jpg" alt="Legs Exercises" style="width: 100%; height: auto; margin-bottom: 10px;">
+            <a href="https://youtu.be/veNXu4L8Zr0?si=o2Ye-MzJ5TDwBL8P" class="youtube-link" target="_blank">Watch on YouTube</a>
+          </div>
+          <p><strong>Ashtanga yoga Description:</strong></p>
+          <p>
+            Ashtanga yoga is a traditional form of yoga that follows a set sequence of postures and breathing techniques <br> designed to create internal heat and detoxify the body
+          </p>
+          <ul>
+            <li><strong>Exercise 1:</strong>Vinyasa...  Ashtanga yoga utilizes a specific vinyasa system, which is the synchronization of breath with movement.<br> Each movement is linked with either an inhale or an exhale.</li>
+            <li><strong>Exercise 2:</strong>Teacher-Led Practice... Traditionally, Ashtanga yoga is taught in a teacher-led class format.<br> where students practice the sequence together in a group setting, led by a certified instructor.</li>
+            <!-- Add more exercises as needed -->
+          </ul>
+        </div>
+</body>
+</html>
